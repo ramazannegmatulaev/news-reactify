@@ -1,0 +1,16 @@
+.wrapper {
+  inline-size: 100%;
+  block-size: auto;
+  position: relative;
+  padding-block-start: 80%;
+  background-color: #f2f4f5;
+}
+
+.image {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inline-size: 100%;
+  object-fit: cover;
+  font-size: 16px;
+}
